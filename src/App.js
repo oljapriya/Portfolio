@@ -4,7 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <Footer />
+      <Experience />
+      {/* <Footer /> */}
     </>
   );
 }
