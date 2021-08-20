@@ -3,7 +3,7 @@ import author from "../olja.jpeg";
 
 const AboutMe = () => {
   return (
-    <div className="container py-5">
+    <div id="about" className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <div className="photo-wrap mb-4">
@@ -19,9 +19,10 @@ const AboutMe = () => {
           Former coffee business owner with a passion for everything coffee.
           With a Bachelor's in Business Management, I have held leadership roles in the coffee world for over 10+ years. Experienced innovating and leading cross-functionally in production operations, wholesale international negotiations, and training exceptional talent across the globe has been a truly rewarding experience.
           <br />
-          I Enjoy running, hiking, skiing, and traveling.
           <br />
-          Always looking to connect professionally for opportunities and networking
+          I enjoy running, hiking, skiing, traveling and coding.
+          <br />
+          Always looking to connect professionally for opportunities and networking.
           </p>
         </div>
       </div>

@@ -4,8 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
-// import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       <Header />
       <AboutMe />
       <Experience />
-      {/* <Footer /> */}
+      <Contacts />
+      <Footer />
     </>
   );
 }
