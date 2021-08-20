@@ -14,26 +14,23 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
         </button>
 
-          
-        
-
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <Link smooth={true} to="home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="about" className="nav-link" href="#">about me</Link>
+              <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">about me</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="experience" className="nav-link" href="#">experience</Link>
+              <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">experience</Link>
             </li>
-            <li className="nav-item">
-              <Link smooth={true} to="portfolio" className="nav-link" href="#">portfolio</Link>
-            </li>
+            {/* <li className="nav-item">
+              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">portfolio</Link>
+            </li> */}
 
             <li className="nav-item">
-              <Link smooth={true} to="contact" className="nav-link" href="#">contacts</Link>
+              <Link smooth={true} to="contacts" offset={-110} className="nav-link" href="#">contacts</Link>
             </li>
 
           </ul>

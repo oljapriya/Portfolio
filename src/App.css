@@ -9,6 +9,7 @@
   --primary-grey:#ccd1d9;
   --primary-dark-grey:#666666;
   --primary-light-grey:#f4f4f4;
+  --primary-black:#000000;
 }
 
 body {
@@ -17,9 +18,6 @@ font-family: "Roboto Condensed", sans-serif !important;
 
 
 /*******************NAVBAR********************/
-.logo {
-  width: 16.25rem;
-}
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
@@ -45,21 +43,27 @@ nav ul li {
   padding: 0 !important;
   height: 6rem !important;
 }
+@media(max-width: 768px) {
+  .navbar-nav {
+    width: 7rem;
+  }
+}
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
+/***************** HEADER *********************/
 
 .header-wraper{
   position: relative;
   background: url("kari-shea-1SAnrIxw5OY-unsplash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 55vh;
+  height: 100vh;
 
 }
 
@@ -86,6 +90,15 @@ nav ul li {
   font-size: 1.5rem;
   color: var(--primary-orange);
 }
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+
+  }
+}
 /******************** Particles JS ******************/
 .tsparticles-canvas-el {
   position:absolute;
@@ -108,11 +121,12 @@ nav ul li {
   align-items: center;
   
 }
-.row{
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+#about {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background: var(--primary-light-grey);
 }
+
 .profile-img {
   width: 16rem;
   border-radius: 50%;
@@ -128,12 +142,15 @@ nav ul li {
 @media (max-width: 480px) {
   .profile-img {
     width: 10rem;
+    
   }
 }
 
 
 /******************** EXPERIENCE ******************/
-
+.experience {
+  padding: 0.7rem;
+}
 .experience-wraper {
   position: relative;
   padding: 3.125rem 0;
@@ -149,7 +166,7 @@ nav ul li {
   position:absolute;
   content: "";
   top: 0;
-  left: 49.5%;
+  left: 50%;
   margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
@@ -197,19 +214,17 @@ nav ul li {
 }
 
 /*---------------- MEDIA -----------------*/
-.experience {
-  padding: 0.9rem;
-}
-
+@media(max-width: 768px) {
 .experience .container {
   padding-left: 0;
 }
 
-@media(max-width: 768px) {
-  .experience-wraper::before {
-  left: 0.5rem;
-  margin-bottom: 1.875rem;
-}
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+
+
  .timeline-block-right {
   float: none;
   width: 100%;
@@ -322,4 +337,24 @@ textarea.form-control {
   }
 }
 
+/*---------------- FOOTER  -----------------*/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
 
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
