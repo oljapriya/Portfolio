@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link smooth={true} to="home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
+              <Link smooth={true} to="home" className="nav-link" href="#">home<span className="sr-only"></span></Link>
             </li>
             <li className="nav-item">
               <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">about me</Link>

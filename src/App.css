@@ -63,7 +63,7 @@ nav ul li {
   background: url("kari-shea-1SAnrIxw5OY-unsplash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 85vh;
 
 }
 
@@ -347,6 +347,7 @@ textarea.form-control {
 .footer a {
   text-decoration: none;
   color: var(--primary-dark-grey);
+  
 }
 
 .footer a:hover {
@@ -357,4 +358,9 @@ textarea.form-control {
 
 .footer p {
   margin-bottom: 0;
+}
+
+.footer i {
+  margin: 30px;
+  margin-left: 30px;
 }

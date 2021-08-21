@@ -16,28 +16,34 @@ const Footer = () => {
               <p>poljako@gmail.com</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-2 col-sm6">
+          <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
                 <a className="footer-nav">Home</a>
                 <br/>
                 <a className="footer-nav">About me</a>
-                </div>
-                <div className="col">
+                <br/>
                 <a className="footer-nav">Experience</a>
                 <br/>
                 <a className="footer-nav">Contact me</a>
-                
-              </div>
-              
+                </div>
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
+            <a href="https://www.linkedin.com/in/oljapriyakovich/" className="text-white">
+            <i className="fab fa-linkedin-in fa-2x"/>
+            </a>
+            <a href="https://github.com/oljapriya?tab=repositories" className="text-white">
+            <i className="fab fa-github fa-2x"/>
+            </a>
+            <a href="https://www.instagram.com/olja_incolor/"className="text-white">
+              <i className="fab fa-instagram fa-2x"/>
+              </a>
           </div>
-          <p className="pt-3 text-center">
+          <p className="text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;Olja Priyakovich
+              {new Date().getFullYear()}&nbsp;| Olja Priyakovich
           </p>
           </div>
         </div>
