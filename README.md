@@ -3,6 +3,11 @@
 ## Description
 This project uses bootstrap with Create React App. This is my full stack portfolio.
 
+## Links
+
+[Deployed Application](https://oljasportfolio.herokuapp.com/)
+
+
 ## Table of Contents
 - [Description](#Description)
 - [Links](#Links) 
