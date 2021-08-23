@@ -31,13 +31,13 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
-            <a href="https://www.linkedin.com/in/oljapriyakovich/" className="text-white">
+            <a href="https://www.linkedin.com/in/oljapriyakovich/">
             <i className="fab fa-linkedin-in fa-2x"/>
             </a>
-            <a href="https://github.com/oljapriya?tab=repositories" className="text-white">
+            <a href="https://github.com/oljapriya?tab=repositories">
             <i className="fab fa-github fa-2x"/>
             </a>
-            <a href="https://www.instagram.com/olja_incolor/"className="text-white">
+            <a href="https://www.instagram.com/olja_incolor/">
               <i className="fab fa-instagram fa-2x"/>
               </a>
           </div>
