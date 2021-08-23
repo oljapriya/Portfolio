@@ -139,7 +139,6 @@ const Contacts = () => {
                     })}
                   }
                 ></textarea>
-
                 <div className="line"></div>
               </div>
               <span className="error-message">

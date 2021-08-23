@@ -60,20 +60,20 @@ nav ul li {
 
 .header-wraper{
   position: relative;
-  background: url("kari-shea-1SAnrIxw5OY-unsplash.jpg") no-repeat;
+  background: url("shubham-dhage-vROoVo4mMGg-unsplash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 85vh;
+  height: 65vh;
 
 }
 
 .main-info {
   display: flex;
   position: absolute;
-  top: 0;
+  top: rem;
   left: 0;
   right: 0;
-  bottom: 7rem;
+  bottom: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -83,11 +83,11 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange)
+  color: var(--primary-orange);
 }
 
 .typed-text {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--primary-orange);
 }
 @media(max-width: 768px) {
@@ -159,7 +159,7 @@ nav ul li {
 
 .experience h1 {
   text-transform: uppercase;
-  color: var(--primary-orange)
+  color: var(--primary-orange);
 }
 
 .experience-wraper::before {
