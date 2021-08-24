@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-md-6">
+          <div className="mobile-col col-lg-4 col-md-6 col-md-6">
             <div className="d-flex">
               <p>San Francisco | 206 Caledonia Street</p>
             </div>
@@ -16,14 +16,16 @@ const Footer = () => {
               <p>poljako@gmail.com</p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-2 col-sm-6">
+          <div className="mobile-col col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
+                <a className="footer-nav" href="#home">Home</a>
                 <br/>
-                <a className="footer-nav">About me</a>
+                <a className="footer-nav" href="#about">About me</a>
                 <br/>
                 <a className="footer-nav">Experience</a>
+                <br/>
+                <a className="footer-nav">Portfolio</a>
                 <br/>
                 <a className="footer-nav">Contact me</a>
                 </div>
@@ -42,7 +44,7 @@ const Footer = () => {
               </a>
           </div>
           <p className="text-center">
-              Copyright&copy;
+              &copy;
               {new Date().getFullYear()}&nbsp;| Olja Priyakovich
           </p>
           </div>

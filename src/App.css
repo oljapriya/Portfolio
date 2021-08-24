@@ -163,16 +163,18 @@ nav ul li {
   color: var(--primary-orange);
 }
 
-.experience-wraper::before {
-  position:absolute;
-  content: "";
-  top: 0;
-  left: 50%;
-  margin-left: -0.0625rem;
-  width: 0.125rem;
-  height: 100%;
-  background: var(--primary-grey);
-  z-index: 1;
+@media(min-width: 768px) {
+  .experience-wraper::before {
+    position:absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    margin-left: -0.0625rem;
+    width: 0.125rem;
+    height: 100%;
+    background: var(--primary-grey);
+    z-index: 1;
+  }
 }
 
 .timeline-block {
@@ -251,6 +253,7 @@ nav ul li {
   width: 15rem;
   border: 2px solid var(--primary-orange);
   padding: 0.5rem;
+  height: 11.5rem !important;
 }
 
 .portfolio-image-box {
@@ -264,7 +267,7 @@ nav ul li {
    opacity: 0;
    background: var(--primary-black);
    width: 15rem;
-   height: 10.5rem;
+   height: 11.5rem;
    top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
@@ -391,6 +394,10 @@ nav ul li {
   background: none;
 }
 
+.contact-btn:hover {
+  border:  1px solid red !important;
+}
+
 .line {
   position: relative;
   top: -0.8rem;
@@ -421,7 +428,7 @@ textarea.form-control {
 
 .success-message {
   font-weight: 900;
-  color: var(--primary-green);
+  color: green;
 }
 
 /*---------------- MEDIA -----------------------*/
@@ -436,6 +443,10 @@ textarea.form-control {
 
   .contacts p {
     padding: 0 0.4rem;
+  }
+
+  .mobile-col  {
+    margin-bottom:25px;
   }
 }
 
