@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">About me</h1>
           <p>
-          I am currently enrolled as a student in the Michigan State University coding bootcamp learning the skills necessary to be a full stack web developer.
+          I am currently enrolled as a student in the Michigan State University coding bootcamp learning the skills necessary to become a full stack web developer.
           <br />
           <br />
           Former coffee business owner with a passion for everything coffee.
