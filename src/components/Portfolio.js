@@ -94,7 +94,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <h1 className="text-uppercase text-center py-4">portfolio</h1>
         <div className="image-box-wrapper row row-cols-auto justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxBudget}>
             <img className="portfolio-image" src={image1} alt="Budget Tracker..." />
