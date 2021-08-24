@@ -75,17 +75,19 @@ nav ul li {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 7rem;
+  bottom: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: monospace;
+  letter-spacing: .6rem;
   
 }
 
 .main-info h1 {
   color: var(--primary-orange);
+  font-size: 2rem;
 }
 
 .typed-text {
