@@ -59,15 +59,15 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Screenshots!
-![Nav Bar](https://user-images.githubusercontent.com/79331882/131221789-53cce720-2ca3-49c6-a6f2-f0074f7139d9.png)
+[Nav Bar](https://user-images.githubusercontent.com/79331882/131221789-53cce720-2ca3-49c6-a6f2-f0074f7139d9.png)
 
 [About Me](https://user-images.githubusercontent.com/79331882/131221639-5fd55bf7-6fac-4b30-862f-3ad0632a0871.png)
-![Experience](https://user-images.githubusercontent.com/79331882/131221673-c81b45fa-3cd6-4d6d-8309-da48c00bb2f3.png)
-![Portfoli](https://user-images.githubusercontent.com/79331882/131221691-88b890b5-1ee9-443b-8b41-5a8532eaf2d1.png)
-![Contact Me](https://user-images.githubusercontent.com/79331882/131221764-ba062935-09ba-4f87-a4d8-0ca771602c39.png)
+[Experience](https://user-images.githubusercontent.com/79331882/131221673-c81b45fa-3cd6-4d6d-8309-da48c00bb2f3.png)
+[Portfoli](https://user-images.githubusercontent.com/79331882/131221691-88b890b5-1ee9-443b-8b41-5a8532eaf2d1.png)
+[Contact Me](https://user-images.githubusercontent.com/79331882/131221764-ba062935-09ba-4f87-a4d8-0ca771602c39.png)
 
-![Screen Shot 2021-08-28 at 10 38 48 AM](https://user-images.githubusercontent.com/79331882/131221736-50fedf64-13d1-40f4-9a61-7d06ec0afc95.png)
-![Footer](https://user-images.githubusercontent.com/79331882/131221740-aeeb73a9-d84b-47f2-be4a-47c2e53313e6.png)
+[Screen Shot 2021-08-28 at 10 38 48 AM](https://user-images.githubusercontent.com/79331882/131221736-50fedf64-13d1-40f4-9a61-7d06ec0afc95.png)
+[Footer](https://user-images.githubusercontent.com/79331882/131221740-aeeb73a9-d84b-47f2-be4a-47c2e53313e6.png)
 
 
 
