@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
-            <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center">
             <a href="https://www.linkedin.com/in/oljapriyakovich/">
             <i className="fab fa-linkedin-in fa-2x"/>
             </a>
@@ -42,7 +42,8 @@ const Footer = () => {
             <a href="https://www.instagram.com/olja_incolor/">
               <i className="fab fa-instagram fa-2x"/>
               </a>
-          </div>
+          
+            </div>
           <p className="text-center">
               &copy;
               {new Date().getFullYear()}&nbsp;| Olja Priyakovich
