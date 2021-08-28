@@ -14,8 +14,9 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={image1} alt="Budget Tracker App..." />
-        <p>Budget Tracker App</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://cryptic-escarpment-79672.herokuapp.com")}>https://cryptic-escarpment-79672.herokuapp.com</a>
+        <br />
+        {/* <p>Budget Tracker App</p> */}
+        <b>Link:</b> <a className="hyper-link" onClick={() => window.open("https://cryptic-escarpment-79672.herokuapp.com")}>Budget Tracker App</a>
 
       </>
 
@@ -48,8 +49,10 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={image2} alt="Fitness Tracker App..." />
-        <p>Fitness Tracker App</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://workouttracker09.herokuapp.com/?id=6115aa1b76e4b40015bfe6df")}>https://workouttracker09.herokuapp.com/?id=6115aa1b76e4b40015bfe6df</a>
+        <br/>
+        <br/>
+        {/* <p>Fitness Tracker App</p> */}
+        <b>Link:</b> <a className="hyper-link" onClick={() => window.open("https://workouttracker09.herokuapp.com/?id=6115aa1b76e4b40015bfe6df")}>Fitness Tracker App</a>
 
       </>
 
@@ -75,8 +78,10 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={image3} alt="Note Taker App..." />
-        <p>Note Taker App</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://notetaker1111111111.herokuapp.com/")}>https://notetaker1111111111.herokuapp.com/</a>
+        <br />
+        <br />
+        {/* <p>Note Taker App</p> */}
+        <b>Link:</b> <a className="hyper-link" onClick={() => window.open("https://notetaker1111111111.herokuapp.com/")}>Note Taker App</a>
 
       </>
 
