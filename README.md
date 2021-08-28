@@ -59,7 +59,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Screenshots!
-![Nav Bar](https://user-images.githubusercontent.com/79331882/131221789-53cce720-2ca3-49c6-a6f2-f0074f7139d9.png)
 
 ![About Me](https://user-images.githubusercontent.com/79331882/131221639-5fd55bf7-6fac-4b30-862f-3ad0632a0871.png)
 ![Experience](https://user-images.githubusercontent.com/79331882/131221673-c81b45fa-3cd6-4d6d-8309-da48c00bb2f3.png)
